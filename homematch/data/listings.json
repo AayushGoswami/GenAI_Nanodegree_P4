@@ -1,92 +1,92 @@
 [
   {
-    "neighborhood": "Upper East Side",
-    "price": 2000000,
+    "neighborhood": "Brooklyn Heights",
+    "price": 1500000,
     "bedrooms": 3,
-    "bathrooms": 2.5,
+    "bathrooms": 2,
     "house_size": 2000,
-    "property_description": "Beautiful brownstone townhouse with a spacious living room, updated kitchen, and private backyard. Master suite with walk-in closet and en-suite bathroom. Located on a tree-lined street close to Central Park.",
-    "neighborhood_description": "The Upper East Side is known for its upscale shops, restaurants, and cultural institutions. It is a desirable neighborhood with a mix of historic buildings and modern amenities."
-  },
-  {
-    "neighborhood": "Silver Lake",
-    "price": 800000,
-    "bedrooms": 2,
-    "bathrooms": 1,
-    "house_size": 1200,
-    "property_description": "Charming bungalow with open floor plan, hardwood floors, and updated kitchen. Large backyard with deck for outdoor entertaining. Walking distance to the lake and local cafes.",
-    "neighborhood_description": "Silver Lake is a trendy neighborhood known for its hipster vibe, eclectic shops, and vibrant arts scene. It is a popular destination for young professionals and creatives."
+    "property_description": "Beautiful brownstone townhouse with original details and modern upgrades. Spacious living room, renovated kitchen, and private backyard. Located in a historic and charming neighborhood.",
+    "neighborhood_description": "Brooklyn Heights is known for its tree-lined streets, historic architecture, and stunning views of the Manhattan skyline. Close to parks, restaurants, and public transportation."
   },
   {
     "neighborhood": "Beverly Hills",
     "price": 5000000,
     "bedrooms": 5,
-    "bathrooms": 4,
-    "house_size": 4000,
-    "property_description": "Luxurious mansion with high ceilings, marble floors, and custom finishes throughout. Gourmet kitchen, home theater, and swimming pool. Gated property with lush landscaping for privacy.",
-    "neighborhood_description": "Beverly Hills is an exclusive neighborhood known for its celebrity residents, designer boutiques, and upscale dining. It is a prestigious area with some of the most expensive real estate in the country."
+    "bathrooms": 6,
+    "house_size": 6000,
+    "property_description": "Luxurious mansion with high-end finishes and amenities. Grand foyer, gourmet kitchen, home theater, and pool. Situated in the prestigious Beverly Hills neighborhood.",
+    "neighborhood_description": "Beverly Hills is synonymous with luxury and celebrity. Known for its upscale shops, fine dining, and iconic landmarks like Rodeo Drive and the Beverly Hills Hotel."
+  },
+  {
+    "neighborhood": "Soho",
+    "price": 2000000,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "house_size": 1500,
+    "property_description": "Chic loft with exposed brick walls and high ceilings. Open floor plan, designer kitchen, and rooftop terrace with city views. Located in the trendy Soho neighborhood.",
+    "neighborhood_description": "Soho is a vibrant and artistic neighborhood known for its galleries, boutiques, and trendy restaurants. Home to many artists and celebrities."
   },
   {
     "neighborhood": "South Beach",
-    "price": 1200000,
+    "price": 1000000,
     "bedrooms": 1,
-    "bathrooms": 1.5,
+    "bathrooms": 1,
     "house_size": 800,
-    "property_description": "Modern condo with ocean views, floor-to-ceiling windows, and designer finishes. Rooftop pool, fitness center, and concierge services. Steps away from the beach and trendy nightlife.",
-    "neighborhood_description": "South Beach is a vibrant neighborhood known for its Art Deco architecture, white sand beaches, and lively entertainment scene. It attracts visitors from around the world looking for sun, sand, and excitement."
-  },
-  {
-    "neighborhood": "Brooklyn Heights",
-    "price": 1500000,
-    "bedrooms": 4,
-    "bathrooms": 3,
-    "house_size": 2500,
-    "property_description": "Historic brownstone with original details, including crown moldings and hardwood floors. Renovated kitchen with stainless steel appliances. Backyard garden and rooftop terrace with city views.",
-    "neighborhood_description": "Brooklyn Heights is a picturesque neighborhood with tree-lined streets, historic homes, and stunning views of the Manhattan skyline. It has a strong sense of community and is popular with families and young professionals."
+    "property_description": "Modern condo with ocean views and beach access. Updated kitchen, spacious living area, and balcony. Perfect for a beachfront getaway in South Beach.",
+    "neighborhood_description": "South Beach is a lively neighborhood known for its beautiful beaches, vibrant nightlife, and Art Deco architecture. Home to trendy restaurants, clubs, and luxury hotels."
   },
   {
     "neighborhood": "Pacific Heights",
     "price": 3000000,
-    "bedrooms": 6,
-    "bathrooms": 4.5,
-    "house_size": 3500,
-    "property_description": "Elegant Victorian home with grand staircase, formal dining room, and wine cellar. Chef's kitchen with top-of-the-line appliances. Landscaped backyard with patio and hot tub.",
-    "neighborhood_description": "Pacific Heights is a prestigious neighborhood known for its historic mansions, sweeping views of the bay, and upscale shopping. It is a sought-after area with a mix of old-world charm and modern amenities."
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "house_size": 2500,
+    "property_description": "Classic Victorian home with period details and modern amenities. Formal dining room, landscaped garden, and detached garage. Located in the prestigious Pacific Heights neighborhood.",
+    "neighborhood_description": "Pacific Heights is an upscale residential neighborhood with stunning views of the Golden Gate Bridge and San Francisco Bay. Known for its historic homes, boutique shops, and top-rated schools."
   },
   {
-    "neighborhood": "Downtown LA",
-    "price": 1000000,
-    "bedrooms": 2,
+    "neighborhood": "Miami Beach",
+    "price": 1500000,
+    "bedrooms": 3,
     "bathrooms": 2,
-    "house_size": 1500,
-    "property_description": "Contemporary loft with industrial-chic design, exposed brick walls, and high ceilings. Open concept living space, designer kitchen, and balcony with city views. Building amenities include rooftop pool and fitness center.",
-    "neighborhood_description": "Downtown LA is a bustling neighborhood with a mix of historic buildings and modern skyscrapers. It is a cultural hub with theaters, art galleries, and trendy restaurants. The area has seen a revival in recent years with new residential developments and entertainment options."
+    "house_size": 1800,
+    "property_description": "Waterfront villa with private dock and pool. Spacious living areas, gourmet kitchen, and outdoor entertaining space. Enjoy luxury living in Miami Beach.",
+    "neighborhood_description": "Miami Beach is a glamorous resort city known for its white sand beaches, vibrant nightlife, and Art Deco architecture. Home to upscale shops, restaurants, and cultural attractions."
+  },
+  {
+    "neighborhood": "Tribeca",
+    "price": 4000000,
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "house_size": 3000,
+    "property_description": "Modern penthouse with panoramic city views. Open floor plan, high-end finishes, and private terrace. Located in the trendy Tribeca neighborhood.",
+    "neighborhood_description": "Tribeca is a hip and upscale neighborhood known for its cobblestone streets, loft apartments, and celebrity residents. Home to trendy restaurants, galleries, and luxury boutiques."
   },
   {
     "neighborhood": "Georgetown",
-    "price": 1800000,
-    "bedrooms": 3,
-    "bathrooms": 2.5,
-    "house_size": 2200,
-    "property_description": "Federal-style townhouse with original woodwork, fireplace, and custom built-ins. Updated kitchen with granite countertops and stainless steel appliances. Private patio and garden for outdoor dining.",
-    "neighborhood_description": "Georgetown is a historic neighborhood known for its cobblestone streets, historic architecture, and upscale shops. It is a charming area with a mix of residential homes, boutique stores, and waterfront parks."
-  },
-  {
-    "neighborhood": "Nob Hill",
     "price": 2500000,
     "bedrooms": 4,
     "bathrooms": 3,
-    "house_size": 2800,
-    "property_description": "Classic Victorian home with period details, stained glass windows, and hardwood floors. Remodeled kitchen with high-end appliances. Landscaped backyard with deck and hot tub.",
-    "neighborhood_description": "Nob Hill is a prestigious neighborhood known for its historic mansions, luxury hotels, and panoramic views of the city. It is an affluent area with a mix of grand homes, upscale shops, and fine dining establishments."
+    "house_size": 2200,
+    "property_description": "Historic townhouse with original details and modern updates. Chef's kitchen, formal dining room, and landscaped backyard. Located in the charming Georgetown neighborhood.",
+    "neighborhood_description": "Georgetown is a historic and picturesque neighborhood known for its cobblestone streets, historic homes, and upscale shops. Home to Georgetown University, parks, and waterfront dining."
   },
   {
-    "neighborhood": "The Hamptons",
-    "price": 7000000,
-    "bedrooms": 7,
-    "bathrooms": 5,
-    "house_size": 5000,
-    "property_description": "Waterfront estate with private beach access, dock, and tennis court. Spacious living areas, gourmet kitchen, and home theater. Expansive outdoor spaces for entertaining and enjoying the ocean views.",
-    "neighborhood_description": "The Hamptons is a luxurious resort area known for its beachfront estates, upscale boutiques, and celebrity residents. It is a popular summer destination for wealthy New Yorkers looking to escape the city and enjoy the beach lifestyle."
+    "neighborhood": "West Hollywood",
+    "price": 1800000,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "house_size": 1600,
+    "property_description": "Contemporary condo with designer finishes and city views. Open floor plan, gourmet kitchen, and private balcony. Located in the trendy West Hollywood neighborhood.",
+    "neighborhood_description": "West Hollywood is a vibrant and diverse neighborhood known for its nightlife, shopping, and entertainment. Home to the Sunset Strip, famous music venues, and trendy restaurants."
+  },
+  {
+    "neighborhood": "Upper East Side",
+    "price": 3500000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "house_size": 2800,
+    "property_description": "Elegant pre-war apartment with Central Park views. Formal dining room, library, and maid's quarters. Located in the prestigious Upper East Side neighborhood.",
+    "neighborhood_description": "Upper East Side is a sophisticated and upscale neighborhood known for its luxury apartments, fine dining, and world-class museums. Home to Central Park, Fifth Avenue shopping, and Madison Avenue galleries."
   }
 ]

@@ -42,5 +42,5 @@ if st.button("🔍 Find Matching Homes"):
                 st.write(r["personalized"])
                 st.markdown("---")
                 st.markdown("**Original Listing Details:**")
-                for key in ["Neighborhood", "Price", "Bedrooms", "Bathrooms", "House Size"]:
-                    st.write(f"**{key}:** {r['original'].get(key, 'N/A')}")
+                for key in ["neighborhood", "price", "bedrooms", "bathrooms", "house_size"]:
+                    st.write(f"**{key.capitalize().replace('_', ' ')}:** {r['original'].get(key, 'N/A')}")

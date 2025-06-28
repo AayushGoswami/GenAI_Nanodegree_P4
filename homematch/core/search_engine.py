@@ -14,7 +14,7 @@ class SearchEngine:
         return self.db.query(preferences, top_k=top_k)
 
     def personalize(self, listing: Dict, preferences: str) -> str:
-        base_description = listing["Description"]
+        base_description = listing["property_description"]
         prompt = f"""
 You are a real estate agent personalizing property descriptions.
 Given the buyer's preferences and the original listing, rewrite the listing to emphasize what matters to the buyer.
@@ -26,7 +26,7 @@ Original Listing Description:
 {base_description}
 
 Neighborhood:
-{listing['Neighborhood Description']}
+{listing['neighborhood_description']}
 
 Respond with the personalized listing only, no explanation.
 """

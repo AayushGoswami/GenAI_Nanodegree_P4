@@ -5,7 +5,6 @@ import os
 import json
 import chromadb
 from typing import List, Dict
-from chromadb.config import Settings
 from sentence_transformers import SentenceTransformer
 
 DATA_DIR = "data"
@@ -14,10 +13,8 @@ CHROMA_DIR = os.path.join(DATA_DIR, "chroma_store")
 
 class DBHandler:
     def __init__(self):
-        self.client = chromadb.Client(Settings(
-            chroma_db_impl="duckdb+parquet",
-            persist_directory=CHROMA_DIR
-        ))
+        # ✅ Use the new PersistentClient
+        self.client = chromadb.PersistentClient(path=CHROMA_DIR)
         self.model = SentenceTransformer("all-MiniLM-L6-v2")
         self.collection = self.client.get_or_create_collection("real_estate")
 
@@ -29,11 +26,12 @@ class DBHandler:
         return self.model.encode(text).tolist()
 
     def populate_db(self, listings: List[Dict]):
-        self.collection.delete(where={})  # Clear previous entries
+        self.collection.delete('real_estate')
+        self.collection = self.client.get_or_create_collection("real_estate")
 
         for idx, listing in enumerate(listings):
             listing_id = f"listing-{idx}"
-            text_to_embed = listing["Description"] + "\n" + listing["Neighborhood Description"]
+            text_to_embed = listing["property_description"] + "\n" + listing["neighborhood_description"]
             embedding = self.embed_text(text_to_embed)
 
             self.collection.add(
@@ -42,7 +40,6 @@ class DBHandler:
                 ids=[listing_id],
                 embeddings=[embedding]
             )
-        self.client.persist()
 
     def query(self, query_text: str, top_k=3) -> List[Dict]:
         embedding = self.embed_text(query_text)
