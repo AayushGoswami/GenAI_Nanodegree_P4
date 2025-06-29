@@ -6,7 +6,7 @@ from langchain.chat_models import ChatOpenAI
 from langchain.schema import HumanMessage
 
 # Set API key and base URL for Vocareum OpenAI endpoint
-os.environ["OPENAI_API_KEY"] = "voc-00000000000000000000.12345678"
+os.environ["OPENAI_API_KEY"] = "YOUR_VOCAREUM_API_KEY"  # Replace with your actual API key
 os.environ["OPENAI_API_BASE"] = "https://openai.vocareum.com/v1"
 
 class LLMClient:

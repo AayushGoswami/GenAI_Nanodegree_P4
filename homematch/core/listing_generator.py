@@ -26,7 +26,7 @@ class ListingGenerator:
     def __init__(self):
         self.llm = LLMClient()
 
-    def generate_listings(self, num=10) -> List[Dict]:
+    def generate_listings(self, num=100) -> List[Dict]:
         prompt = LISTING_GEN_PROMPT.format(num=num)
         raw = self.llm.ask(prompt)
 
